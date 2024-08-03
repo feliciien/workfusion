@@ -2,7 +2,7 @@
   <div class="newcomer__slide-3--container">
     <div>
       <h2 class="newcomer__slide-3--heading">
-        Get Ready to Dive in with Project workfusion
+        Get Ready to Dive in with Project Hive!
       </h2>
       <p class="newcomer__slide-3--text mb-3">
         Climb to the top and find the exciting experience through out the process

@@ -35,10 +35,10 @@ COPY docker/startup.sh /app/docker/startup.sh
 RUN chmod +x /app/docker/startup.sh
 
 # Expose the ports for Nginx and PHP-FPM
-EXPOSE 80 8080
+EXPOSE 8080
 
 # Define the entry point for the container
 ENTRYPOINT ["/app/docker/startup.sh"]
 
 # Ensure that the container runs as expected
-CMD ["php-fpm"]
+CMD ["node", "app.js"]
